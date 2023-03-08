@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_task"
+        android:icon="@drawable/menu_task"
+        android:title="事项"/>
+
+    <item
+        android:id="@+id/menu_accounts"
+        android:icon="@drawable/menu_absorbed"
+        android:title="专注"/>
+
+    <item
+        android:id="@+id/menu_absorbed"
+        android:icon="@drawable/menu_music_ison"
+        android:title="音乐"/>
+
+    <item
+        android:id="@+id/menu_weather"
+        android:icon="@drawable/menu_weather"
+        android:title="每日先知"/>
+</menu>
