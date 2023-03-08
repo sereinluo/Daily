@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#1E6FFF</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#1E6FFF</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="level_0">#f66563</color>
+    <color name="level_1">#f38f44</color>
+    <color name="level_2">#0db971</color>
+    <color name="level_3">#4b8cf1</color>
+
+    <color name="defaultColor">#455a88</color>
+    <color name="workColor">#4a8cf2</color>
+    <color name="studyColor">#1baf59</color>
+    <color name="lifeColor">#f3a04b</color>
+
+    <color name="GRAY">#757575</color>
+    <color name="BLACK">#000000</color>
+
+    <color name="colorEmpty">#00000000</color><!-- 透明色-->
+    <color name="gray">#e0e0e0</color>
+    <color name="menusColor">#df6c5b</color>
+    <color name="iconColor">#333333</color>
+
+
+</resources>

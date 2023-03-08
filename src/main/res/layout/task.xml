@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/taskText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="事项"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Switch
+                    android:id="@+id/HideCompletedTaskView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="隐藏已完成"
+                    android:textSize="15sp"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/TypeMenuLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/TypeMenu_default"
+                style="@style/taskTypeMenuItemStyle"
+                android:text="全部"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/TypeMenu_work"
+                style="@style/taskTypeMenuItemStyle"
+                android:background="@color/workColor"
+                android:text="工作"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/TypeMenu_study"
+                style="@style/taskTypeMenuItemStyle"
+                android:background="@color/studyColor"
+                android:text="学习"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/TypeMenu_life"
+                style="@style/taskTypeMenuItemStyle"
+                android:background="@color/lifeColor"
+                android:text="生活"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/taskListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/addTaskImage"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/add_icon"/>
+
+</RelativeLayout>
